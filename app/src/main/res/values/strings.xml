@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Flash Launcher</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="num_switch_title">Switch for hiding numbers</string>
+    <string name="num_switch_summary">Option to remove number from launcher</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO - add your ad unit Ids -->
+    <!-- AdMob ad unit IDs -->
+    <string name="admob_app_id">ca-app-pub-3247111653154373~2628663778</string>
+    <string name="banner_home_footer">ca-app-pub-3247111653154373/3419001268</string>
+
+
+    <string name="instructions">Please place your finger on fingerprint sensor</string>
+</resources>

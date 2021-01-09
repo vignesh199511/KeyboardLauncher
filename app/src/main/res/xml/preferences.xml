@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+
+        android:defaultValue="false"
+        android:key="example_switch"
+        android:summary="@string/num_switch_summary"
+        android:title="@string/num_switch_title">
+
+    </android.support.v7.preference.SwitchPreferenceCompat>
+
+    <Preference
+        android:title="FingerPrint Applock"
+        android:summary="Select app which need to be protected using finger print">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="vv.vignesh.flashlauncher"
+            android:targetClass="vv.vignesh.flashlauncher.AppsListCheckbox"
+            />
+
+    </Preference>
+
+
+</PreferenceScreen>
